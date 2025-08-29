@@ -16,11 +16,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          submodules: recursive   # al-folio uses submodules
+          submodules: recursive
+
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.3'
           bundler-cache: true
+
+      # Install Python + Jupyter so the jekyll-jupyter-notebook plugin can spawn "jupyter"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Jupyter
+        run: pip install --upgrade pip && pip install jupyter nbconvert
+
       - run: bundle install
       - run: bundle exec jekyll build
       - uses: actions/upload-pages-artifact@v3
