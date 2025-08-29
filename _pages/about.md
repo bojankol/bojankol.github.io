@@ -27,8 +27,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a principal research engineer developing machine learning and artificial intelligence approaches, delivering solutions for problems in cybersecurity, and making AI secure and trustworthy. My scientific research skills have been refined from working at highly regarded research institutions, such as DLR, Fraunhofer AISEC, and the Technical University of Munich. In my current position as a Principal Engineer in AI at HSBC I am working on the development and applications of machine learning techniques to improve automation and increase efficiency, primarily in cybersecurity processes, by leveraging large-scale heterogeneous data. I am collaborating with cybersecurity operations teams in creating advanced analytics capabilities that improve the detection of anomalous activity and threats to the organization. 
