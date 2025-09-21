@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: I have been teaching practical and seminar courses at TU Munich from 2014 to 2019.
 nav: true
 nav_order: 6
 ---
