@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: I have been teaching practical and seminar courses at TU Munich from 2014 to 2019.
+description: I have been teaching practical and seminar courses in AI and Cybersecurity at TU Munich from 2014 to 2019.
 nav: true
 nav_order: 6
 ---
