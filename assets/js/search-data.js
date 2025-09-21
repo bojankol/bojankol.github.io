@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-teaching",
           title: "teaching",
-          description: "Materials for courses you taught. Replace this text with your description.",
+          description: "I have been teaching practical and seminar courses at TU Munich from 2014 to 2019.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
